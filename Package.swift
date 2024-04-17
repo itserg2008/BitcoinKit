@@ -5,7 +5,7 @@ let package = Package(
     name: "BitcoinKit",
     platforms: [
         .iOS(.v12),
-        .macOS(.v10_15)        
+        .macOS(.v10_15)
     ],
     products: [
         .library(name: "BitcoinKit", targets: ["BitcoinKit"])
